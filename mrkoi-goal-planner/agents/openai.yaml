@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mr. Koi 目标与任务书"
+  short_description: "把明确目标写成有真实证据、清楚边界和可验证结果的中文任务书"
+  default_prompt: "请使用 $mrkoi-goal-planner，把我明确提出的目标整理成中文任务书，核实可查事实并列清范围、验收和未验证项。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mr. Koi 横纵研究"
+  short_description: "通过时间演进、同类对比和一手证据，回答技术产品研究与选型问题"
+  default_prompt: "请用 $mrkoi-research 处理我提供的主题与材料，给出有依据、可直接使用的中文工作稿。"

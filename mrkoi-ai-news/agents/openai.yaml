@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mr. Koi AI 资讯"
+  short_description: "汇总有来源的 AI 新闻与热点，区分发布时间、收录时间和个人判断"
+  default_prompt: "使用 $mrkoi-ai-news 整理过去 24 小时值得关注的 AI 动态，并核对重要消息的一手来源。"

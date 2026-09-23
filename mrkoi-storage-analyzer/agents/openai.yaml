@@ -1,0 +1,6 @@
+interface:
+  display_name: "Mr. Koi 存储分析"
+  short_description: "按指定范围只读分析磁盘占用，区分缓存、工具链与用户数据并生成静态报告"
+  default_prompt: "使用 $mrkoi-storage-analyzer 只读分析我指定目录的占用，核实归属并生成静态 HTML 报告。"
+policy:
+  allow_implicit_invocation: true

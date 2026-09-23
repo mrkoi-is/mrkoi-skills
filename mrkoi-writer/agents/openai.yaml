@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mr. Koi 内容工作稿"
+  short_description: "把真实素材与研究结论写成自然具体的中文内容，保留作者与证据边界"
+  default_prompt: "请用 $mrkoi-writer 处理我提供的主题与材料，给出有依据、可直接使用的中文工作稿。"

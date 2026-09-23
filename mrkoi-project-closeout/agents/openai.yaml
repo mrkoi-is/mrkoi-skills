@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mr. Koi 项目收尾"
+  short_description: "按当前仓库范围同步代码事实、文档与交接记录，保护未集成工作"
+  default_prompt: "请使用 $mrkoi-project-closeout，在当前项目范围内同步实现、文档和交接记录，并按已有具体授权处理残留。"

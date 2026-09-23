@@ -1,0 +1,15 @@
+{
+  "record_type": "illustrative_example_not_a_schema_or_real_finding",
+  "subject": "示例产品 A",
+  "question": "是否适合离线编辑本地 Markdown？",
+  "as_of": "2026-01-01",
+  "claims": [
+    {"kind": "fact", "statement": "示例文档说明产品支持本地文件。", "source_ids": ["source-1"], "verification": "文档记录；没有实际运行产品"},
+    {"kind": "inference", "statement": "使用开放格式可能降低基础文本迁移成本。", "based_on": ["本地文件这一已知设计"], "uncertainty": "插件语法、附件与元数据尚未验证"},
+    {"kind": "recommendation", "statement": "用一份带附件的样本做导入、断网编辑和导出测试。", "reason": "验证用户真正依赖的工作流，而非只核对格式名称"},
+    {"kind": "unknown", "statement": "离线时哪些插件继续工作？", "impact": "可能影响离线选型结论"}
+  ],
+  "sources": [
+    {"id": "source-1", "title": "虚构示例文档，非实际证据", "url": "https://example.com/product-a/docs", "accessed_at": "2026-01-01", "source_type": "illustrative_only"}
+  ]
+}
